@@ -1,0 +1,212 @@
+*{
+  font-family: Helvetica;  
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 1100px;
+  min-width: 780px;
+  margin: auto;
+  font-size: 0.9em;
+}
+
+h1{
+  line-height: 2em;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 30px;
+  font-size:0.9em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left{
+  float: left;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.button{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.header{
+  color: white;
+  background-color: rgb(32,101,136);
+  background-image: url(images/city-scape.svg);
+  height: 400px;
+  background-position: right center;
+}
+
+.header-header{
+  padding: 14px;
+  display: flex;
+  height: 70px;
+  flex-wrap: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-header .logo{
+  height: 100%;
+  width: auto;
+  float:left;
+}
+
+.header-header .register{
+  width: 120px;
+  margin: auto;
+}
+.header-header a{
+  text-decoration: none;
+  color: white;
+}
+
+.header-header .bear-logo{
+  height: 100%;
+  width: auto;
+  float:right;
+}
+
+.header-header .search-bar{
+  color: white;
+  background-color:rgb(31, 82, 111);
+  border: 1px solid rgb(32,101,136);
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  height :100%;
+}
+
+.build{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.build .text{
+  width: 60%;
+}
+
+.build .p{
+  text-size: 0.5 em;
+}
+
+.build .button{
+  background-color: rgb(240, 146, 51);
+  width: 120px;
+}
+
+#collaboration{
+  height: 400px;
+  color:white;
+  background-color: rgb(39, 53, 71);
+  padding-top: 100px;
+}
+#collaboration .content{
+    width: 800px;
+}
+
+.team-img{
+  height: 200px;
+  width: auto;
+}
+
+#collaboration .text{
+  width: 375px;
+  float: right;
+}
+
+#collaboration li{
+  padding-top: 10px;
+}
+
+#collaboration .button{
+  background-color:rgb(203, 56, 55);
+  width: 130px;
+}
+
+#collaboration a{
+  text-decoration: none;
+  color: white;
+}
+
+#what-is{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  position: relative;
+  height: 400px;
+  color:white;
+}
+
+#what-is .content{
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+#what-is h2{
+  line-height: 2em;
+}
+
+#what-is .button{
+  background-color: rgb(49, 68, 88);
+  width: 100px;
+}
+
+#functions{
+  background-color: white;  
+  width: 800px;
+  height: 450px;
+  padding: 50px 0;
+  text-align: center;
+  color: rgb(135, 145, 156)
+}
+#functions .col{
+  width: 25%;
+  margin: 4%;
+  float: left;
+} 
+
+.centered {
+  margin: 0 auto;
+}
+
+#functions h2, #functions h3{
+  color:rgb(83, 88, 98);
+  line-height: 2.5em;
+} 
+
+#functions a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
